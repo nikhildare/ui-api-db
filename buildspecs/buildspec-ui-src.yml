@@ -5,7 +5,7 @@ env:
   variables:
     APP_NAME: "fde-task-app"
     # FIX 1: Remove the "s3://" prefix. Keep just the bucket name.
-    ARTIFACT_BUCKET: "fde-artifacts"
+    ARTIFACT_BUCKET: "fde-ui-api-task"
 
 phases:
   install:
